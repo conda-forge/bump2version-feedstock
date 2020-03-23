@@ -10,9 +10,9 @@ source:
   sha256: 524bde030318fe2543038defe0f77739605636fef96924883813cb290cf79c1e
 
 build:
-  number: 0
-  skip: True  # [win]
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 1
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
     - bumpversion = bumpversion.cli:main
     - bump2version = bumpversion.cli:main
