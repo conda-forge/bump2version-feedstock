@@ -10,7 +10,7 @@ source:
   sha256: 524bde030318fe2543038defe0f77739605636fef96924883813cb290cf79c1e
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
@@ -53,4 +53,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - fcollonval
     - kynan
