@@ -1,5 +1,5 @@
 {% set name = "bump2version" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cd4f3a231305e405ed8944d8ff35bd742d9bc740ad62f483bd0ca21ce7131984
+  sha256: 762cb2bfad61f4ec8e2bdf452c7c267416f8c70dd9ecb1653fd0bbb01fa936e6
 
 build:
   number: 0
@@ -36,7 +36,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.rst
-  summary: 'Version-bump your software with a single command!'
+  summary: Version-bump your software with a single command!
 
   description: |
     A small command line tool to simplify releasing software by updating all
