@@ -5,9 +5,13 @@ Home: https://github.com/c4urself/bump2version
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bump2version-feedstock/blob/master/LICENSE.txt)
 
 Summary: Version-bump your software with a single command!
+
+Development: https://github.com/c4urself/bump2version
+
+Documentation: https://github.com/c4urself/bump2version
 
 A small command line tool to simplify releasing software by updating all
 version strings in your source code by the correct increment. Also creates
